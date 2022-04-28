@@ -16,5 +16,6 @@ int main() {
     int n = 8;
 
     factor(n);
+    
     return 0;
 }
