@@ -8,7 +8,10 @@ int main() {
         p[i] = i;
         cout << p[i] << " ";
     }
-    cout << endl;
+    cout << endl; 
+
+    // Use delete when you need to remove a variable from memory NOT NULL.
+    delete []p;
 
     // NULL is just not pointer to any memory
     // but the variable is still on memory.
@@ -17,8 +20,5 @@ int main() {
         cout << p[i] << " ";
     }
     cout << endl;
-
-    // Use delete when you need to remove a variable from memory NOT NULL.
-    delete []p;
     return 0;
 }
